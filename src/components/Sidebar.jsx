@@ -1,27 +1,20 @@
 import React from "react";
-import { slide as Menu } from "react-burger-menu";
-
+import { fallDown as Menu } from "react-burger-menu";
+import { Link } from "react-router-dom";
 const Sidebar = (props) => {
   return (
     <div>
-      <div className="asd">
-        <p>LillaIita</p>
-      </div>
-      <Menu {...props}>
-        <a className="menu-item" href="/">
-          Home
-        </a>
-        <a className="menu-item" href="/about">
-          About
-        </a>
-
-        <a className="menu-item" href="/services">
-          Services
-        </a>
-
-        <a className="menu-item" href="/contact">
-          Contact us
-        </a>
+      <Menu right {...props}>
+        <Link onClick={() => this.closeMenu()} className="menu-item" to="/">
+          Etusivu
+        </Link>
+        <Link
+          onClick={() => this.closeMenu()}
+          className="menu-item"
+          to="/kynnet"
+        >
+          Kynnet
+        </Link>
       </Menu>
     </div>
   );
