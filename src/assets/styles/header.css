@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: #d9d6f1;
 }
 
 img {
@@ -13,4 +13,15 @@ img {
   width: 100%;
   height: 270px;
   padding-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 150px;
+  font-family: "Oooh Baby", cursive;
+}
+.center {
+  width: 100%;
+  height: 30%;
+  background-color: blanchedalmond;
 }

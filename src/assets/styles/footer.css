@@ -1,5 +1,4 @@
 .contents {
-  background-color: #d9d6f1;
   text-align: center;
   width: 100%;
   padding-top: 13px;
@@ -13,4 +12,7 @@ a {
 a:hover {
   opacity: 0.6;
   color: #575566;
+}
+.a {
+  color: #000;
 }
